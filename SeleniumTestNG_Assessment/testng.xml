@@ -10,9 +10,9 @@
 			<class name="com.selenium.assessment.AddButton" />
 			<class name="com.selenium.assessment.AddUser" />
 			<class name="com.selenium.assessment.SearchTab" />
-<!-- 			<class name="com.selenium.assessment.DeleteTab" /> -->
-<!-- 			<class name="com.selenium.assessment.VerifyUserRecord" /> -->
-<!-- 			<class name="com.selenium.assessment.Logout" /> -->
+	         	<class name="com.selenium.assessment.DeleteTab" /> 
+ 			<class name="com.selenium.assessment.VerifyUserRecord" /> 
+			<class name="com.selenium.assessment.Logout" /> 
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
