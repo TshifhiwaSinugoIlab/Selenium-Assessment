@@ -6,16 +6,20 @@ import org.testng.annotations.Test;
 //using extends to access characteristics of Config class 
 public class PageTitle extends Config {
 
-	//test
-	@Test(priority = 1)
-	public void test_case_one() throws Exception {
 
-		//test case and description
-		Config.test = Config.extent.createTest("Open orangeHRM url", "Get the title of the current page.");
+	public void test_case_one() {
 
 		//link to the url
-		Config.driver.get(Locators.web_url);
-
+		Config.driver.get(Locators.web_url);	
+	}
+	
+	//test
+	@Test(priority = 1)
+	public void validateTitle() throws Exception {
+		
+		//test case and description
+		Config.test = Config.extent.createTest("Open orangeHRM url", "Get the title of the current page.");
+		
 		//actual title
 		String actualTitle = Config.driver.getTitle();
 
